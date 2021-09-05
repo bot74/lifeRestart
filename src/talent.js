@@ -62,7 +62,7 @@ class Talent {
                 let grade;
                 if(0) grade = 0;//originally gradeRandom>=0.111
                 else if(0) grade = 1;//gradeRandom>=0.011
-                else if(gradeRandom>=0.5) grade = 2;
+                else if(gradeRandom>=0.5) grade = 2;//update!
                 else grade = 3;
 
                 while(talentList[grade].length == 0) grade--;
